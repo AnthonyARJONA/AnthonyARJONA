@@ -1,16 +1,27 @@
-### Hi there 👋
+<h1 align="center"> :tada: Statistics :tada: </h1>
 
-<!--
-**Mimso/Mimso** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  
+  <a href="https://github.com/AnthonyARJONA">
+    <img src="https://github-readme-stats.vercel.app/api?username=AnthonyARJONA&show_icons=false&bg_color=0d1117&text_color=ededed&border_color=5a5a5a" height="165">
+  </a>
+  
+  <a href="https://github.com/AnthonyARJONA">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnthonyARJONA&layout=compact&bg_color=0d1117&text_color=ededed&border_color=444"  height="165">
+  </a>
+  
+</p>
 
-Here are some ideas to get you started:
+<h1 align="center"> :fire: Contributions :fire: </h1>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://github.com/AnthonyARJONA">
+    <img src="http://github-readme-streak-stats.herokuapp.com?user=AnthonyARJONA&theme=react&background=0d1117&border=666">
+  </a>  
+</p>
+
+<div align="center">
+  <a href="https://github.com/AnthonyARJONA">
+    <img src="https://shields-io-visitor-counter.herokuapp.com/badge?page=aHR0cHM6Ly9naXRodWIuY29tL0FudGhvbnlBUkpPTkEv&style=for-the-badge">
+  <a>
+</div>
