@@ -1,0 +1,33 @@
+name: Update README all day at 22:22
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 22 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Update README.md file
+        run: |
+          node index.mjs > README.md
+        env:
+          CI: true
+      - name: commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: ${{ github.actor }}
+          author_email: ${{ github.actor }}@users.noreply.github.com
+          message: 'README.md updated at ${{ github.event.inputs.date }}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}

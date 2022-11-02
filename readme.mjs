@@ -1,4 +1,4 @@
-<h1 align="center"> :tada: Statistics :tada: </h1>
+const readme = `<h1 align="center"> :tada: Statistics :tada: </h1>
 <p align="center">
   <a href="https://github.com/AnthonyARJONA">
     <img src="https://github-readme-stats.vercel.app/api?username=AnthonyARJONA&show_icons=false&bg_color=0d1117&text_color=ededed&border_color=5a5a5a" height="165">
@@ -19,4 +19,6 @@
   </a>
 </div>
 
-<br><br>*<small>last update: 02/11/2022 23:52:38 </small>*
+<br><br>*<small>last update: <today_date> </small>*`;
+
+export default readme;
